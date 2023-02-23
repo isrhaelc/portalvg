@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/portalvg" mode="merge"/>
+    <filter root="/content/portalvg" mode="merge"/>
+    <filter root="/content/dam/portalvg" mode="merge">
+        <exclude pattern="/content/dam/portalvg(/.*)?"/>
+        <include pattern="/content/dam/portalvg/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/portalvg/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/portalvg" mode="merge"/>
+</workspaceFilter>
